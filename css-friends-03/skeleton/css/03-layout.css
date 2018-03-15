@@ -1,1 +1,25 @@
 /* PHASE 3: Layout */
+
+.content {
+  margin: 0 auto;
+  display: flex;
+  width: 900px;
+  min-height: 200px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+
+
+.content-main {
+  min-height: 200px;
+  width: 660px;
+  border: 1px solid #eee;
+   /* padding: 0 10px; */
+}
+
+.content-sidebar {
+  min-height: 200px;
+  width: 240px;
+  border: 1px solid #eee;
